@@ -7,7 +7,8 @@ import DehazeIcon from '@mui/icons-material/Dehaze';
 import SmokingRoomsIcon from '@mui/icons-material/SmokingRooms';
 import { MdCleaningServices } from "react-icons/md";
 import { IoSunnyOutline } from "react-icons/io5";
-let WEATHER_API_KEY = process.env.NEXT_PUBLIC_WEATHER_APP_API_KEY;
+// let WEATHER_API_KEY = process.env.NEXT_PUBLIC_WEATHER_APP_API_KEY;
+let WEATHER_API_KEY = '0f4c9ed9e8cf7a74df65647e1152107f';
 const Home = () => {
 
   const [place, setPlace] = useState("Kota");
